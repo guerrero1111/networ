@@ -421,12 +421,19 @@ h3{
   float: left;
   padding: 12px 3px;
 }
+#contacto button{
+  width: 100%;
+    background-color: #109710;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 8px;
+}
 @media only screen and (max-width: 480px) {
   .principal {
     padding: 0px !important;
   }
   .principal > div > div{
-    padding: 0px !important;
+    padding: 9px !important;
     border-bottom: 1px solid #909090;
   }
   .claro{
