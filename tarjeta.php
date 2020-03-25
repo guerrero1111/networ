@@ -5,12 +5,12 @@
 require("header.php");
 ?>
 <div class="container general">
-  <div class="col-md-3 menula">
+  <!-- <div class="col-md-3 menula">
     <div class="principal">
-      <nav class="navbar navbar-default" role="navigation">
+      <nav class="navbar navbar-default" role="navigation"> -->
   <!-- El logotipo y el icono que despliega el menú se agrupan
        para mostrarlos mejor en los dispositivos móviles -->
-  <div class="navbar-header">
+  <!-- <div class="navbar-header">
     <button type="button" class="navbar-toggle" data-toggle="collapse"
             data-target=".navbar-ex1-collapse">
       <span class="sr-only">Desplegar navegación</span>
@@ -19,11 +19,11 @@ require("header.php");
       <span class="icon-bar"></span>
     </button>
     <span class="navbar-brand">Menú</span>
-  </div>
+  </div> -->
 
   <!-- Agrupar los enlaces de navegación, los formularios y cualquier
        otro elemento que se pueda ocultar al minimizar la barra -->
-  <div class="collapse navbar-collapse navbar-ex1-collapse">
+  <!-- <div class="collapse navbar-collapse navbar-ex1-collapse">
     <div class="menunavegacion">
         <a href="#datos">Datos personales</a>
         <a href="#enlaces">Enlaces</a>
@@ -34,11 +34,19 @@ require("header.php");
         <a href="#contacto">Contacto</a>
       </div>
 
-  </div>
-</nav>
+  </div> -->
+<!-- </nav>
       
     </div>
+  </div> -->
+<div class="col-md-3">
+    <div class="principal">
+      <div class="">
+        
+      </div>
+    </div>
   </div>
+
 
   <div class="col-md-6 principal">
     <div class="col-md-12 contenedorseccion">
@@ -69,7 +77,7 @@ require("header.php");
 
             <div class="col-md-12 contenedorseccion">
                 <div class="col-md-12 divisor">
-                   <p>ENLACES<i class="fas fa-sort-up pull-right" data-toggle="tooltip" title="Abrir/Cerrar"></i></p>
+                   <p>ENLACES<i class="far fa-plus-square pull-right" data-toggle="tooltip" title="Abrir/Cerrar"></i></p>
                 </div>
 
                 <div class="col-md-12 redes ocultar" id="enlaces">
@@ -92,7 +100,7 @@ require("header.php");
             </div>
             <div class="col-md-12 contenedorseccion">
                 <div class="col-md-12 divisor">
-                   <p>INFORMACIÓN GENERAL<i class="fas fa-sort-up pull-right" data-toggle="tooltip" title="Abrir/Cerrar"></i></p>
+                   <p>INFORMACIÓN GENERAL<i class="far fa-plus-square pull-right" data-toggle="tooltip" title="Abrir/Cerrar"></i></p>
                 </div>
 
                 <div class="col-md-12 claro ocultar" id="informacion">
@@ -102,7 +110,7 @@ require("header.php");
             </div>
             <div class="col-md-12 contenedorseccion">
                 <div class="col-md-12 divisor">
-                   <p>DATOS EMPRESARIALES<i class="fas fa-sort-up pull-right" data-toggle="tooltip" title="Abrir/Cerrar"></i></p>
+                   <p>DATOS EMPRESARIALES<i class="far fa-plus-square pull-right" data-toggle="tooltip" title="Abrir/Cerrar"></i></p>
                 </div>
 
                 <div class="col-md-12 claro ocultar" id="datose">
@@ -115,7 +123,20 @@ require("header.php");
             </div>
             <div class="col-md-12 contenedorseccion">
                 <div class="col-md-12 divisor">
-                   <p>GALERÍA<i class="fas fa-sort-up pull-right" data-toggle="tooltip" title="Abrir/Cerrar"></i></p>
+                   <p>SERVICIOS<i class="far fa-plus-square pull-right" data-toggle="tooltip" title="Abrir/Cerrar"></i></p>
+                </div>
+                <div class="col-md-12 claro ocultar" id="servicios">
+                  <h3>Servicio 1</h3>
+                  <p>Hello! I’m Alex Smith. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fermentum ullamcorper sem, at placerat dolor volutpat ac. Duis nulla enim, condimentum nec ultricies.</p>
+                  <h3>Servicio 2</h3>
+                  <p>Hello! I’m Alex Smith. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fermentum ullamcorper sem, at placerat dolor volutpat ac. Duis nulla enim, condimentum nec ultricies.</p>
+                  <h3>Servicio 3</h3>
+                  <p>Hello! I’m Alex Smith. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fermentum ullamcorper sem, at placerat dolor volutpat ac. Duis nulla enim, condimentum nec ultricies.</p>
+                </div>
+            </div>
+            <div class="col-md-12 contenedorseccion">
+                <div class="col-md-12 divisor">
+                   <p>GALERÍA<i class="far fa-plus-square pull-right" data-toggle="tooltip" title="Abrir/Cerrar"></i></p>
                 </div>
 
                 <div class="col-md-12 ocultar" id="galeria">
@@ -134,18 +155,21 @@ require("header.php");
             </div>
             <div class="col-md-12 contenedorseccion">
                 <div class="col-md-12 divisor">
-                   <p>UBICACIÓN<i class="fas fa-sort-up pull-right" data-toggle="tooltip" title="Abrir/Cerrar"></i></p>
+                   <p>UBICACIÓN<i class="far fa-plus-square pull-right" data-toggle="tooltip" title="Abrir/Cerrar"></i></p>
                 </div>
 
-                <div class="col-md-12 ocultar" id="ubicacion">
-                  
+                <div class="col-md-12 ocultar redes text-center" id="ubicacion">
+                  <a class="descarga" href="#"><i class="fab fa-uber"></i></a>
+                  <a class="descarga" href="#"><i class="fab fa-waze"></i></a>
+
                   <p>Calle X, Delegación X, Ciudad X, Estado, País</p>
+                 
                   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1881.2587058429926!2d-99.1335830918904!3d19.433246396720953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1577210184409!5m2!1ses-419!2smx" width="100%" height="450px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                 </div>
             </div>
             <div class="col-md-12 contenedorseccion">
                 <div class="col-md-12 divisor">
-                   <p>CONTACTAME<i class="fas fa-sort-up pull-right" data-toggle="tooltip" title="Abrir/Cerrar"></i></p>
+                   <p>CONTACTAME<i class="far fa-plus-square pull-right" data-toggle="tooltip" title="Abrir/Cerrar"></i></p>
                 </div>
 
                 <div class="col-md-12 claro ocultar" id="contacto">
@@ -163,7 +187,7 @@ require("header.php");
   <div class="col-md-3">
     <div class="principal">
       <div class="">
-        Barra 2
+        
       </div>
     </div>
   </div>
@@ -205,12 +229,12 @@ require("header.php");
     </div>
   </div>
 
-<a data-toggle="modal" href="#compartir">
+<!-- <a data-toggle="modal" href="#compartir">
 <div class="compartirflotante">
   <i class="fab fas fa-envelope"></i>  
   <i class="fab fa-whatsapp"></i>
 </div>
-</a>
+</a> -->
 
 
 <?php

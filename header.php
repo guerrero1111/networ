@@ -22,7 +22,7 @@
 
   }
   .general{
-    margin-top: 45px;
+    margin-top: 20px;
   }
   .gris{
     background-color: #ebebeb;
@@ -310,7 +310,7 @@ form input, form textarea{
   padding: 0px;
 }
 .contenedorsuperior{
-  background-color: #d9534f;
+  background-color: #4fd95a;
 }
 .contenedorsuperior a,.contenedorsuperior a:hover,.contenedorsuperior a:active,.contenedorsuperior a:focus,.contenedorsuperior a:visited{
   text-transform: uppercase;
@@ -336,13 +336,41 @@ form input, form textarea{
   color: #ffffff;
 
 }
-.redes .descarga i{
-    font-size: 23px;
-    padding: 5px !important;
-    margin: 10px;
-    width: 25px;
+#enlaces input{
+  width: 70%;
+}
+.ocultar{
+  display: none;
+}
+.far{
+      font-size: 18px;
+    padding: 2px 0px 0px 0px;
+}
+textarea{
+  width: 100%;
+}
+.fa-trash-alt{
+  font-size: 13px !important;
+}
+.redes i{
+   font-size: 23px;
+    padding: 6px !important;
+    margin: 14px;
+    width: 41px;
     text-align: center;
     color: #524c4c;
+    border: 2px solid;
+    border-radius: 37px;
+}
+.contenedorsuperior i{
+   font-size: 23px;
+    padding: 6px !important;
+
+    width: 41px;
+    text-align: center;
+
+    border: 2px solid;
+    border-radius: 37px;
 }
 .redes .descarga{
     background-color: transparent !important;

@@ -34,8 +34,8 @@ $('.slider-nav').slick({
 
   $(".contenedorseccion .divisor i").click(function(){
     $(this).parents(".contenedorseccion").find(".ocultar").toggle();
-    $(this).toggleClass( "fa-sort-up" );
-    $(this).toggleClass( "fa-sort-down" );
+    $(this).toggleClass( "fa-plus-square" );
+    $(this).toggleClass( "fa-minus-square" );
   });
 
   

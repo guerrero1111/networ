@@ -49,7 +49,10 @@ require("header.php");
 
     <div class="container">
         <h1>¡ES GRATIS, CREA EL TUYO AHORA EN 15 seg.!</h1>
-        <div class="col-md-5 contgeneral registro">
+        <div class="col-md-3">
+         
+        </div>
+        <div class="col-md-6 contgeneral registro">
             <h1>Crea tu propio IDCONECT</h1>
             <div class="text-center contregistro ">        
                 <div class="col-md-push-1 col-sm-12 col-md-10 text-center">
@@ -58,13 +61,16 @@ require("header.php");
                     <input type="text" placeholder="Teléfono celular">
                     <input type="text" placeholder="Correo">
                     <input type="text" placeholder="Elige tu contraseña">
-                    <form action="">
+                    <form action="dashboard.php">
                         <input type="submit" class="btnsiguiente" value="COMENZAR AHORA">
                     </form>
                 </div>
             </div>
         </div>
-        <div class="col-md-1">
+        <div class="col-md-3">
+         
+        </div>
+        <!-- <div class="col-md-1">
         </div>
         <div class="col-md-6 visuali principal registro1">
             <h1>Así se puede ver tu IDCONECT</h1>
@@ -175,7 +181,7 @@ require("header.php");
                   </form>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>    
 
     </div>

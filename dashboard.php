@@ -12,12 +12,11 @@ require("header.php");
       <div class="col-md-12 visualizacion">
         <p>Tipo de visualización: <i class="fas fa-address-card pull-right" data-toggle="tooltip" title="Tarjeta con foto"></i>
         <i class="fas fa-th-large pull-right" data-toggle="tooltip" title="Tarjeta vertical"></i><i class="fas fa-th-large pull-right" data-toggle="tooltip" title="Tarjeta horizontal"></i></p>
-        
       </div>
     </div>
     <div class="col-md-12 contenedorseccion">
       <div class="col-md-12 divisor">
-         <a href="#">EDITAR MI TARJETA DIGITAL<i class="fas fa-edit pull-right" data-toggle="tooltip" title="Editar"></i></a>
+         <a>EDITAR MI TARJETA DIGITAL<i class="fas fa-edit pull-right" data-toggle="tooltip" title="Editar"></i></a>
       </div>
       <div class="col-md-5 text-center" id="datos">
         <img src="fotogoogle.png">
@@ -37,41 +36,42 @@ require("header.php");
     </div>
     <div class="col-md-12 contenedorseccion">
       <div class="col-md-12 divisor">
-         <a href="#">EDITAR ENLACES<i class="fas fa-eye pull-right" data-toggle="tooltip" title="Privado"></i><i class="fas fa-edit pull-right" data-toggle="tooltip" title="Editar"></i> <i class="fas fa-plus" data-toggle="tooltip" title="Agregar"></i></a>
+         <a>EDITAR ENLACES<i class="fas fa-eye pull-right" data-toggle="tooltip" title="Privado"></i><i class="fas fa-edit pull-right" data-toggle="tooltip" title="Editar"></i> <i class="fas fa-plus" data-toggle="tooltip" title="Agregar"></i></a>
       </div>
       <div class="col-md-12 redes" id="enlaces">
-        <a class="descarga" href="#"><i class="fab fa-facebook-f"></i></a>
-        <a class="descarga" href="#"><i class="fab fa-twitter"></i></a>
-        <a class="descarga" href="#"><i class="fab fa-instagram"></i></a>
-        <a class="descarga" href="#"><i class="fab fa-youtube"></i></a>
-        <a class="descarga" href="#"><i class="fab fa-skype"></i></a>
-        <a class="descarga" href="#"><i class="fab fa-whatsapp"></i></a>
-        <a class="descarga" href="#"><i class="fab fa-spotify"></i></a>
-        <a class="descarga" href="#"><i class="fab fa-linkedin"></i></a>
-        <a class="descarga" href="#"><i class="fab fa-github"></i></a>
-        <a class="descarga" href="#"><i class="fab fa-behance"></i></a>
-        <a class="descarga" href="#"><i class="fab fa-amazon"></i></a>
-        <a class="descarga" href="#"><i class="fas fa-store"></i></a>
-        <a class="descarga" href="#"><i class="fab fa-snapchat-square"></i></a>
-        <a class="descarga" href="#"><i class="fab fa-cc-paypal"></i></a>
+        <i class="fab fa-facebook-f" data-toggle="tooltip" title="Facebook"></i><input type="text"><i class="fas fa-trash-alt" data-toggle="tooltip" title="Eliminar"></i>
+        <i class="fab fa-twitter" data-toggle="tooltip" title="Twitter"></i><input type="text"><i class="fas fa-trash-alt" data-toggle="tooltip" title="Eliminar"></i>
+        <i class="fab fa-instagram" data-toggle="tooltip" title="Instagram"></i><input type="text"><i class="fas fa-trash-alt" data-toggle="tooltip" title="Eliminar"></i>
+        <i class="fab fa-youtube" data-toggle="tooltip" title="Youtube"></i><input type="text"><i class="fas fa-trash-alt" data-toggle="tooltip" title="Eliminar"></i>
+        <i class="fab fa-skype" data-toggle="tooltip" title="Skype"></i><input type="text"><i class="fas fa-trash-alt" data-toggle="tooltip" title="Eliminar"></i>
+        <i class="fab fa-whatsapp" data-toggle="tooltip" title="Whatsapp"></i><input type="text"><i class="fas fa-trash-alt" data-toggle="tooltip" title="Eliminar"></i>
+        <i class="fab fa-spotify" data-toggle="tooltip" title="Spotify"></i><input type="text"><i class="fas fa-trash-alt" data-toggle="tooltip" title="Eliminar"></i>
+        <i class="fab fa-linkedin" data-toggle="tooltip" title="Linkedin"></i><input type="text"><i class="fas fa-trash-alt" data-toggle="tooltip" title="Eliminar"></i>
+        <i class="fab fa-github" data-toggle="tooltip" title="Github"></i><input type="text"><i class="fas fa-trash-alt" data-toggle="tooltip" title="Eliminar"></i>
+        <i class="fab fa-behance" data-toggle="tooltip" title="Behance"></i><input type="text"><i class="fas fa-trash-alt" data-toggle="tooltip" title="Eliminar"></i>
+        <i class="fab fa-amazon" data-toggle="tooltip" title="Tienda en Amazon"></i><input type="text"><i class="fas fa-trash-alt" data-toggle="tooltip" title="Eliminar"></i>
+        <i class="fas fa-store" data-toggle="tooltip" title="Tienda en línea"></i><input type="text"><i class="fas fa-trash-alt" data-toggle="tooltip" title="Eliminar"></i>
+        <i class="fab fa-snapchat-square" data-toggle="tooltip" title="Snapchat"></i><input type="text"><i class="fas fa-trash-alt" data-toggle="tooltip" title="Eliminar"></i>
+        <i class="fab fa-cc-paypal" data-toggle="tooltip" title="Paypal"></i><input type="text"><i class="fas fa-trash-alt" data-toggle="tooltip" title="Eliminar"></i>
       </div>
     </div>
     <div class="col-md-12 contenedorseccion">
       <div class="col-md-12 divisor">
-         <a href="#">EDITAR INFORMACIÓN GENERAL<i class="fas fa-eye pull-right" data-toggle="tooltip" title="Privado"></i><i class="fas fa-edit pull-right" data-toggle="tooltip" title="Editar"></i></a>
+         <a>EDITAR INFORMACIÓN GENERAL<i class="fas fa-eye pull-right" data-toggle="tooltip" title="Privado"></i><i class="fas fa-edit pull-right" data-toggle="tooltip" title="Editar"></i></a>
+      </div>
+
+      <div class="col-md-12 claro" id="informacion">
+          <textarea>Hello! I’m Alex Smith. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fermentum ullamcorper sem, at placerat dolor volutpat ac. Duis nulla enim, condimentum nec ultricies.</textarea>
+      </div>
+    </div>
+    <div class="col-md-12 contenedorseccion">
+      <div class="col-md-12 divisor">
+         <a>EDITAR SERVICIOS<i class="fas fa-eye pull-right" data-toggle="tooltip" title="Privado"></i><i class="fas fa-edit pull-right" data-toggle="tooltip" title="Editar"></i><i class="fas fa-plus" data-toggle="tooltip" title="Agregar"></i></a>
       </div>
 
       <div class="col-md-12 claro" id="informacion">
        
-        <p>Hello! I’m Alex Smith. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fermentum ullamcorper sem, at placerat dolor volutpat ac. Duis nulla enim, condimentum nec ultricies.</p>
-      </div>
-    </div>
-    <div class="col-md-12 contenedorseccion">
-      <div class="col-md-12 divisor">
-         <a href="#">EDITAR SERVICIOS<i class="fas fa-eye pull-right" data-toggle="tooltip" title="Privado"></i><i class="fas fa-edit pull-right" data-toggle="tooltip" title="Editar"></i><i class="fas fa-plus" data-toggle="tooltip" title="Agregar"></i></a>
-      </div>
 
-      <div class="col-md-12 claro" id="informacion">
         <h3>Servicio 1</h3>
         <p>Hello! I’m Alex Smith. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fermentum ullamcorper sem, at placerat dolor volutpat ac. Duis nulla enim, condimentum nec ultricies.<i class="fas fa-trash-alt" data-toggle="tooltip" title="Eliminar"></i></p>
         <h3>Servicio 2</h3>
@@ -82,7 +82,7 @@ require("header.php");
     </div>
     <div class="col-md-12 contenedorseccion">
       <div class="col-md-12 divisor">
-         <a href="#">EDITAR DATOS EMPRESARIALES<i class="fas fa-eye pull-right" data-toggle="tooltip" title="Privado"></i><i class="fas fa-edit pull-right" data-toggle="tooltip" title="Editar"></i> <i class="fas fa-plus" data-toggle="tooltip" title="Agregar"></i></a>
+         <a>EDITAR DATOS EMPRESARIALES<i class="fas fa-eye pull-right" data-toggle="tooltip" title="Privado"></i><i class="fas fa-plus" data-toggle="tooltip" title="Agregar"></i></a>
       </div>
 
       <div class="col-md-12 claro" id="datose">
@@ -96,7 +96,7 @@ require("header.php");
     </div>
     <div class="col-md-12 contenedorseccion">
       <div class="col-md-12 divisor">
-         <a href="#">EDITAR GALERÍA<i class="fas fa-eye pull-right" data-toggle="tooltip" title="Privado"></i><i class="fas fa-edit pull-right" data-toggle="tooltip" title="Editar"></i> <i class="fas fa-plus" data-toggle="tooltip" title="Agregar"></i></a>
+         <a>EDITAR GALERÍA<i class="fas fa-eye pull-right" data-toggle="tooltip" title="Privado"></i><i class="fas fa-edit pull-right" data-toggle="tooltip" title="Editar"></i> <i class="fas fa-plus" data-toggle="tooltip" title="Agregar"></i></a>
       </div>
 
       <div class="col-md-12" id="galeria">
@@ -115,7 +115,7 @@ require("header.php");
     </div>
     <div class="col-md-12 contenedorseccion">
       <div class="col-md-12 divisor">
-         <a href="#">EDITAR UBICACIÓN<i class="fas fa-eye pull-right" data-toggle="tooltip" title="Privado"></i><i class="fas fa-edit pull-right" data-toggle="tooltip" title="Editar"></i></a>
+         <a>EDITAR UBICACIÓN<i class="fas fa-eye pull-right" data-toggle="tooltip" title="Privado"></i><i class="fas fa-edit pull-right" data-toggle="tooltip" title="Editar"></i></a>
       </div>
 
       <div class="col-md-12" id="ubicacion">
@@ -126,7 +126,7 @@ require("header.php");
     </div>
     <div class="col-md-12 contenedorseccion">
       <div class="col-md-12 divisor">
-         <a href="#">EDITAR ENVIAR CONSULTA</a>
+         <a>EDITAR ENVIAR CONSULTA</a>
       </div>
 
       <div class="col-md-12 claro" id="contacto">
@@ -225,7 +225,9 @@ require("header.php");
       
 
       <div class="col-md-12 text-center">
-        <button>VER TODOS</button>
+        <form action="contactos.php">
+          <button>VER TODOS</button>
+        </form>
       </div>
     </div>
   </div>
